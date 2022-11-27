@@ -1,0 +1,63 @@
+.hero {
+    position: relative;
+  
+    padding-top: 120px;
+    padding-bottom: 367px;
+    text-align: center;
+  
+    background-image: url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-color: var(--secondary-color-bg);
+  }
+  
+  .hero-title {
+    margin-bottom: 24px;
+  
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 1.11;
+  
+    color: var(--main-color);
+  }
+  .hero-text {
+    margin-bottom: 16px;
+  
+    font-size: 21px;
+    line-height: 1.38;
+  
+    color: var(--main-color);
+  }
+  
+  .hero-btn {
+    padding: 18px 36px 17px;
+  
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0.96;
+    letter-spacing: 0.11px;
+    text-transform: uppercase;
+  
+    color: #ffffff;
+    background-color: transparent;
+  
+    border: 1px solid #ffffff;
+    border-radius: 0px;
+    cursor: pointer;
+  }
+  
+  .hero::after {
+    content: '';
+  
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+  
+    width: 576px;
+    height: 324px;
+  
+    transform: translate(-50%, 44px);
+  
+    background-image: url(../images/device-hero.png);
+  }
+  
