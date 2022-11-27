@@ -1,0 +1,65 @@
+// Default settings
+// Limiter for img
+.slick-list {
+  overflow: hidden;
+}
+// Slade tape
+.slick-track {
+  display: flex;
+}
+
+// Existing settings
+
+.slider {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+
+  .slick-arrow {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    font-size: 0;
+    background-color: transparent;
+    border: none;
+    &.slick-prev {
+      left: 0;
+    }
+    &.slick-next {
+      right: 0;
+    }
+  }
+}
+
+.slider .slick-dots {
+  position: absolute;
+  bottom: 72px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.slider .slick-dots li {
+  list-style: none;
+}
+
+.slider .slick-dots button {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 8px;
+  height: 8px;
+  font-size: 0;
+  background-color: transparent;
+  border: 1px solid var(--main-color);
+}
+
+.slider .slick-dots li.slick-active button {
+  background-color: var(--main-color);
+}
