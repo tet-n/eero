@@ -46,5 +46,19 @@
 
   &__btn {
     margin-top: auto;
+    display: inline-block;
+    text-align: left;
+
+    &--width-for-first-btn {
+      width: 142px;
+    }
+
+    &--width-for-snd-btn {
+      width: 135px;
+    }
+
+    &--width-for-third-btn {
+      width: 197px;
+    }
   }
 }

@@ -501,4 +501,15 @@ img {
 }
 .info__btn {
   margin-top: auto;
+  display: inline-block;
+  text-align: left;
+}
+.info__btn--width-for-first-btn {
+  width: 142px;
+}
+.info__btn--width-for-snd-btn {
+  width: 135px;
+}
+.info__btn--width-for-third-btn {
+  width: 197px;
 }/*# sourceMappingURL=main.css.map */
