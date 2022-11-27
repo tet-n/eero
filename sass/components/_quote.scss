@@ -1,24 +1,21 @@
-.quote{
-    text-align: center;
-    padding-top: 200px;
-    padding-bottom: 205px;
-    background-color: var(--main-color-text);
+.quote {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 205px;
+  background-color: var(--main-color-text);
 
-    &__title {
-margin-bottom: 49px;
-    }
-}
-
-.quote__title {
+  &__title {
+    margin: 0 auto;
+    margin-bottom: 49px;
     width: 823px;
     font-weight: 700;
     font-size: 42px;
     line-height: 1.14;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
+  }
+
+  &__img {
+    margin: 0 auto;
+  }
 }
-
-
-
-
-

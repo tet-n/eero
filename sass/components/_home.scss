@@ -1,0 +1,29 @@
+.home {
+  padding: 135px 0 120px;
+  text-align: center;
+
+  &__title {
+    margin: 0 auto;
+    margin-bottom: 44px;
+    width: 782px;
+
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.2;
+
+    color: var(--main-color-text);
+  }
+
+  &__text {
+    margin: 0 auto;
+    margin-bottom: 78px;
+    width: 707px;
+    line-height: 1.4;
+
+    color: var(--main-color-text);
+  }
+
+  &__img {
+    margin: 0 auto;
+  }
+}

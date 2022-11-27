@@ -1,42 +1,25 @@
 .wi-fi-section {
-    text-align: center;
-  }
-  
-  .wi-fi-wrap {
-    margin: 0 auto;
-    width: 736px;
-  }
-  
-  .wi-fi-title {
-    margin-bottom: 44px;
-  
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 1.2;
-  }
-  
-  .wi-fi-text {
-    margin-bottom: 78px;
-    line-height: 1.4;
-  }
-  
-  .btn-primary {
-    padding: 18px 36px;
-    font-family: inherit;
-  
-    font-size: 14px;
-    line-height: 1;
-  
-    letter-spacing: 0.11px;
-    text-transform: uppercase;
-  
-    background-color: var(--main-color-btn);
-    color: var(--main-color);
-  
-    border: none;
-    cursor: pointer;
-  }
-  
-  .wi-fi-img {
-    margin: 0 auto;
-  }
+  text-align: center;
+}
+
+.wi-fi-wrap {
+  margin: 0 auto;
+  width: 736px;
+}
+
+.wi-fi-title {
+  margin-bottom: 44px;
+
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+.wi-fi-text {
+  margin-bottom: 78px;
+  line-height: 1.4;
+}
+
+.wi-fi-img {
+  margin: 0 auto;
+}
