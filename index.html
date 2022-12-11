@@ -271,68 +271,112 @@
         </ul>
       </section>
       <!-- Find your eero system -->
-      <section>
-        <h2>Find your eero system</h2>
-        <button type="button">Next</button>
+      <section class="system">
+        <h2 class="system__title">Find your eero system</h2>
+        <img
+          class="system__img"
+          srcset="./images/system_1x.png 1x, ./images/system_2x.png 2x"
+          src="./images/system_1x.png"
+          alt="System device"
+          width="387"
+          height="192"
+        />
+        <button type="button" class="system__btn btn-primary">Next</button>
       </section>
       <!-- people love great wifi -->
-      <section>
-        <h2>Turns out, people love great wifi.</h2>
-        <div>
-          <img src="./images/famaly.jpg" alt="Famaly" width="720" />
-          <div>
-            <ul>
-              <li><button type="button">Setup</button></li>
-              <li><button type="button">Coverage</button></li>
-              <li><button type="button">Reliability</button></li>
-              <li><button type="button">Security</button></li>
+      <section class="family">
+        <h2 class="family__title">Turns out, people love great wifi.</h2>
+        <div class="family__wrap">
+          <img
+            class="family__img"
+            src="./images/famaly.jpg"
+            alt="Famaly"
+            width="720"
+          />
+          <div class="family__thumb">
+            <ul class="family__list">
+              <li class="family_item">
+                <button type="button" class="family__btn btn-link">
+                  Setup
+                </button>
+              </li>
+              <li class="family_item">
+                <button type="button" class="family__btn btn-link">
+                  Coverage
+                </button>
+              </li>
+              <li class="family_item">
+                <button type="button" class="family__btn btn-link">
+                  Reliability
+                </button>
+              </li>
+              <li class="family_item">
+                <button type="button" class="family__btn btn-link">
+                  Security
+                </button>
+              </li>
             </ul>
-            <p>
-              Setting up our eeros was a breeze thanks to the plug and play
+            <p class="family__text">
+              “Setting up our eeros was a breeze thanks to the plug and play
               installation. The whole experience was life changing compared to
-              other routers we’ve used.
+              other routers we’ve used.”
             </p>
-            <p>The Rankins</p>
-            <p>Seattle, WA &#124; 4 Bedroom house</p>
-            <p>3,300 sq. ft.</p>
-            <p>16 connected devices</p>
-            <p>Use eero 3-pack</p>
-            <button type="button">Shop all eero systems</button>
+            <p class="family__sub-text">The Rankins</p>
+            <p class="family__after-text">Seattle, WA &#124; 4 Bedroom house</p>
+            <p class="family__after-text">3,300 sq. ft.</p>
+            <p class="family__after-text">16 connected devices</p>
+            <p class="family__after-text family__after-text--mb">
+              Use eero 3-pack
+            </p>
+            <button type="button" class="family__btn btn-primary">
+              Shop all eero systems
+            </button>
           </div>
         </div>
       </section>
       <!-- The experts are in -->
-      <section>
-        <h2>The experts are in.</h2>
-        <p>Our team is just a (toll-free) phone call, email, or tweet away.</p>
-        <button type="button">Help center</button>
-        <ul>
+      <section class="experts">
+        <h2 class="experts__title">The experts are in.</h2>
+        <p class="experts__text">Our team is just a (toll-free) phone call, email, or tweet away.</p>
+        <button type="button" class="btn-primary">Help center</button>
+        <ul class="experts__list">
           <li>
-            <p>30-day guarantee</p>
+            <p class="experts__desc"><svg class="experts__svg" width="36px" height="36px">
+              <use href="./images/icons.svg#guarantee"></use>
+            </svg> 30-day guarantee</p>
           </li>
           <li>
-            <p>Free support</p>
+            <p class="experts__desc"><svg class="experts__svg" width="36px" height="36px">
+              <use href="./images/icons.svg#person"></use>
+            </svg> Free support</p>
           </li>
           <li>
-            <p>Free shipping</p>
+            <p class="experts__desc"><svg class="experts__svg" width="36px" height="36px">
+              <use href="./images/icons.svg#bus"></use>
+            </svg> Free shipping</p>
           </li>
           <li>
-            <p>1-year warranty</p>
+            <p class="experts__desc"> <svg class="experts__svg" width="36px" height="36px">
+              <use href="./images/icons.svg#warranty"></use>
+            </svg> 1-year warranty</p>
           </li>
         </ul>
       </section>
       <!-- Stay connected -->
-      <section>
-        <h2>Stay connected with fast, reliable, whole-home wifi.</h2>
-        <button type="button">goodbye dead spots</button>
+      <section class="connected">
+        <h2 class="connected__title">Stay connected with fast, reliable, whole-home wifi.</h2>
+        <button class="btn-primary" type="button">goodbye dead spots</button>
       </section>
     </main>
 
-    <footer>
+    <footer class="footer">
       <a href="#">
-        <img src="./images/logo_footer.svg" alt="Logo" width="86" />
+        <svg class="footer__logo" width="86px"
+          height="39px">
+          <use href="./images/icons.svg#logo-black"></use>
+        </svg>
       </a>
-      <div>
+      <div class="footer__wrap">
         <!-- Links -->
         <div>
           <ul>
@@ -356,7 +400,14 @@
           </ul>
         </div>
         <!-- Form -->
-        <div></div>
+        <div>
+          <form>
+            <label>
+              <input type="text" placeholder="Email">
+            </label>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
       </div>
       <div>
         <p>&#169; 2021 EERO LLC, SAN FRANCISCO, CA</p>

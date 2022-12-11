@@ -1,0 +1,58 @@
+.family {
+  padding: 117px 0;
+
+  &__title {
+    margin-bottom: 123px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  &__wrap {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  &__img {
+    margin-right: 80px;
+  }
+
+  &__list {
+    display: flex;
+
+    gap: 30px;
+
+    margin-bottom: 34px;
+  }
+
+  &__text {
+    margin-bottom: 28px;
+
+    width: 540px;
+    font-size: 36px;
+    line-height: 1.45;
+    text-indent: -13px;
+  }
+
+  &__sub-text {
+    margin-bottom: 14px;
+    font-size: 18px;
+    line-height: 1.4;
+
+    color: var(--secondary-colot-text);
+  }
+
+  &__after-text {
+    font-size: 18px;
+    line-height: 1.4;
+
+    color: var(--secondary-colot-text);
+
+    &--mb {
+      margin-bottom: 29px;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.system {
+  padding-top: 69px;
+  padding-bottom: 108px;
+  text-align: center;
+
+  &__title {
+    margin: 0 auto 99px;
+
+    width: 328px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  &__img {
+    margin: 0 auto 138px;
+  }
+
+  &__btn {
+    padding-left: 92px;
+    padding-right: 92px;
+    background-color: var(--bg-btn);
+  }
+}
