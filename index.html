@@ -271,33 +271,66 @@
         </ul>
       </section>
       <!-- Find your eero system -->
-      <section>
-        <h2>Find your eero system</h2>
-        <button type="button">Next</button>
+      <section class="system">
+        <h2 class="system__title">Find your eero system</h2>
+        <img
+          class="system__img"
+          srcset="./images/system_1x.png 1x, ./images/system_2x.png 2x"
+          src="./images/system_1x.png"
+          alt="System device"
+          width="387"
+          height="192"
+        />
+        <button type="button" class="system__btn btn-primary">Next</button>
       </section>
       <!-- people love great wifi -->
-      <section>
-        <h2>Turns out, people love great wifi.</h2>
-        <div>
-          <img src="./images/famaly.jpg" alt="Famaly" width="720" />
-          <div>
-            <ul>
-              <li><button type="button">Setup</button></li>
-              <li><button type="button">Coverage</button></li>
-              <li><button type="button">Reliability</button></li>
-              <li><button type="button">Security</button></li>
+      <section class="family">
+        <h2 class="family__title">Turns out, people love great wifi.</h2>
+        <div class="family__wrap">
+          <img
+            class="family__img"
+            src="./images/famaly.jpg"
+            alt="Famaly"
+            width="720"
+          />
+          <div class="family__thumb">
+            <ul class="family__list">
+              <li class="family_item">
+                <button type="button" class="family__btn btn-link">
+                  Setup
+                </button>
+              </li>
+              <li class="family_item">
+                <button type="button" class="family__btn btn-link">
+                  Coverage
+                </button>
+              </li>
+              <li class="family_item">
+                <button type="button" class="family__btn btn-link">
+                  Reliability
+                </button>
+              </li>
+              <li class="family_item">
+                <button type="button" class="family__btn btn-link">
+                  Security
+                </button>
+              </li>
             </ul>
-            <p>
-              Setting up our eeros was a breeze thanks to the plug and play
+            <p class="family__text">
+              “Setting up our eeros was a breeze thanks to the plug and play
               installation. The whole experience was life changing compared to
-              other routers we’ve used.
+              other routers we’ve used.”
             </p>
-            <p>The Rankins</p>
-            <p>Seattle, WA &#124; 4 Bedroom house</p>
-            <p>3,300 sq. ft.</p>
-            <p>16 connected devices</p>
-            <p>Use eero 3-pack</p>
-            <button type="button">Shop all eero systems</button>
+            <p class="family__sub-text">The Rankins</p>
+            <p class="family__after-text">Seattle, WA &#124; 4 Bedroom house</p>
+            <p class="family__after-text">3,300 sq. ft.</p>
+            <p class="family__after-text">16 connected devices</p>
+            <p class="family__after-text family__after-text--mb">
+              Use eero 3-pack
+            </p>
+            <button type="button" class="family__btn btn-primary">
+              Shop all eero systems
+            </button>
           </div>
         </div>
       </section>
