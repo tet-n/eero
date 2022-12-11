@@ -598,10 +598,7 @@ img {
   width: 119px;
 }
 .info__btn--width-for-third-btn {
-<<<<<<< HEAD
   width: 191px;
-=======
-  width: 197px;
 }
 
 .system {
@@ -728,11 +725,11 @@ img {
   padding-top: 111px;
   padding-bottom: 114px;
   text-align: center;
-  background-image: url(../../images/home_1x.jpg);
+  background-image: url(../images/home_1x.jpg);
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .connected {
-    background-image: url(../../images/home_2x.jpg);
+    background-image: url(../images/home_2x.jpg);
   }
 }
 
@@ -743,7 +740,7 @@ img {
   font-size: 50px;
   line-height: 1.2;
   width: 596px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
 }
 
@@ -763,5 +760,4 @@ img {
   display: -ms-flexbox;
   display: flex;
   margin-top: 60px;
->>>>>>> c669e22eb5843b9feb8fbad5d957d0c689582aba
 }/*# sourceMappingURL=main.css.map */
