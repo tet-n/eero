@@ -1,0 +1,19 @@
+.footer{
+    padding-top: 90px;
+    padding-bottom: 100px;
+
+    color: var(--main-color);
+
+    background-color: var(--secondary-color);
+
+}
+
+.footer__logo{
+   fill: var(--main-color);
+}
+
+.footer__wrap{
+    display: flex;
+    margin-top: 60px;
+    
+}

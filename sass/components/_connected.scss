@@ -1,0 +1,27 @@
+.connected{
+    padding-top: 111px;
+    padding-bottom: 114px;
+
+    text-align: center;
+
+    background-image: url(../../images/home_1x.jpg);
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx){
+            background-image: url(../../images/home_2x.jpg);
+        }
+}
+
+.connected__title{
+margin: 0 auto;
+margin-bottom: 83px;
+font-weight: 400px;    
+font-size: 50px;
+line-height: 1.2;
+
+width: 596px;
+
+color: #FFFFFF;
+
+text-align: center;
+}

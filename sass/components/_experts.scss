@@ -1,0 +1,41 @@
+.experts{
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+.experts__title{
+margin-bottom: 35px;
+
+font-weight: 400;
+font-size: 50px;
+line-height: 1.2;
+
+
+}
+
+.experts__text{
+    margin-bottom: 44px;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.experts__svg{
+    fill: transparent;
+    stroke: #231F20;
+}
+
+.experts__list{
+    display: flex;
+    margin-top: 94px;
+    justify-content: center;
+    gap: 96px;
+}
+
+.experts__desc{
+    display: flex;
+    gap: 18px;
+    align-items: center;
+
+    font-size: 18px;
+    line-height: 1.4;
+}
